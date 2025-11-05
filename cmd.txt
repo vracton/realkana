@@ -1,0 +1,3 @@
+wget --mirror --page-requisites --convert-links --adjust-extension \
+     --span-hosts --domains=web.archive.org \
+     https://web.archive.org/web/20250614083925/https://realkana.com
