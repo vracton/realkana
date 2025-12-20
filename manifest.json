@@ -2,13 +2,25 @@
     "short_name": "RealKana",
     "name": "RealKana",
 	"description": "Study your kana!",
-    "start_url": "/index.html",
+    "start_url": "/",
     "display": "standalone",
 	"background_color": "#f6e7e5",
     "theme_color": "#4066b3",
-    "icons": [{
-		"src": "/favicon.ico",
-		"type": "image/x-icon",
-		"sizes": "48x48"
-	}]
+    "icons": [
+		{
+			"src": "/favicon.ico",
+			"type": "image/x-icon",
+			"sizes": "48x48"
+		},
+		{
+			"src": "/icons/icon-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/icons/icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
 }
